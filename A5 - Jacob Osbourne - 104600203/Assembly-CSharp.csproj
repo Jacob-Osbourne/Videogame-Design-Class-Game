@@ -53,16 +53,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BlueCube.cs" />
      <Compile Include="Assets\Scripts\BubbleScript.cs" />
      <Compile Include="Assets\Scripts\BubbleSpawn.cs" />
+     <Compile Include="Assets\Scripts\CubeSpawn.cs" />
+     <Compile Include="Assets\Scripts\GoldCube.cs" />
+     <Compile Include="Assets\Scripts\GreenCube.cs" />
      <Compile Include="Assets\Scripts\IChooseBlue.cs" />
      <Compile Include="Assets\Scripts\IChooseGreen.cs" />
      <Compile Include="Assets\Scripts\IChooseRed.cs" />
      <Compile Include="Assets\Scripts\IChooseYellow.cs" />
      <Compile Include="Assets\Scripts\MenuButtons.cs" />
      <Compile Include="Assets\Scripts\Painting.cs" />
+     <Compile Include="Assets\Scripts\RedCube.cs" />
      <Compile Include="Assets\Scripts\SetBubScore.cs" />
      <Compile Include="Assets\Scripts\SetHighscore.cs" />
+     <Compile Include="Assets\Scripts\SliceGameControl.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>F:/U of Windsor Work/yr 3 sem 1/Game Design/Assignment 5/A5 - Jacob Osbourne - 104600203/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

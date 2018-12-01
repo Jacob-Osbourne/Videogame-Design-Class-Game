@@ -456,6 +456,11 @@ Prefab:
       propertyPath: score
       value: 
       objectReference: {fileID: 392582731}
+    - target: {fileID: 114153722523280784, guid: 4ca387d435794d54cb5dbf069563fa21,
+        type: 2}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ca387d435794d54cb5dbf069563fa21, type: 2}
   m_IsPrefabAsset: 0
@@ -489,6 +494,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go: {fileID: 1597577351648586, guid: e5a61fe435871804e9cebb9892e5b46d, type: 2}
+  spawn: 0
+  time: 0
+  speed: 1
   bubbleDeathCounter: 0
   popped: 0
   score: {fileID: 392582731}
